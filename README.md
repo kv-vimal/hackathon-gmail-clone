@@ -2,12 +2,12 @@
 
 # hackathon gmail clone
 
-this is a simple gmail clone where you can read,send ,list and save the draft messages.
+this is a simple gmail clone with compose,view,send and draft message functionalities.
 
 ##  *[clickHere to Test](https://festive-edison-7f2855.netlify.app/)
 
 
-#### *Use below credentials, to test the this project
+#### *Use below credentials, to test this project
 
 *Mail Id : dummymail8257@gmail.com
 *password : password8257
