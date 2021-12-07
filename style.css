@@ -1,0 +1,218 @@
+/** @format */
+
+.top-bar {
+	background-color: rgba(7, 7, 7, 0.7);
+	padding: 7px 7px 7px 0px;
+	display: none;
+}
+
+.icon-con {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#mail-icon {
+	height: 35px;
+	width: 35px;
+}
+
+.title {
+	color: white;
+}
+
+.sidepanel {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgba(7, 7, 7, 0.9);
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+.sidepanel a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidepanel a:hover {
+	color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+.openbtn {
+	background-color: rgba(97, 97, 97, 0.3);
+	font-size: 20px;
+	cursor: pointer;
+	color: white;
+	padding: 3px 10px;
+	border: none;
+}
+
+.openbtn:hover {
+	background-color: rgba(120, 120, 120, 0.5);
+}
+
+.signout-btn-con {
+	position: absolute;
+	right: 10px;
+	margin-top: 2px;
+}
+
+.signout-btn {
+	border-radius: 5px;
+	background-color: white;
+}
+
+.signout-btn:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login-con {
+	height: 500px;
+	width: 500px;
+	box-shadow: 0 5px 5px gray;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.inbox-con {
+	box-shadow: 0 5px 5px gray;
+	display: none;
+	flex-direction: column;
+}
+
+.inbox-con .table {
+	overflow-x: auto;
+}
+
+.inbox-con .table tr {
+	cursor: pointer;
+}
+
+.font-bold {
+	font-weight: bold;
+}
+
+.message-body-con {
+	display: none;
+	flex-direction: column;
+	justify-content: space-around;
+	position: relative;
+	box-shadow: 0 5px 5px gray;
+	padding-top: 32px;
+	padding-left: 20px;
+}
+
+.left-icon {
+	position: absolute;
+	top: 7px;
+	left: 7px;
+	font-size: 20px;
+}
+
+.left-icon:hover {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.sent-con {
+	box-shadow: 0 5px 5px gray;
+	display: none;
+	flex-direction: column;
+}
+
+.sent-con .table {
+	overflow-x: auto;
+}
+
+.sent-con .table tr {
+	cursor: pointer;
+}
+
+.compose-body-con {
+	display: none;
+	flex-direction: column;
+	justify-content: space-around;
+	box-shadow: 0 5px 5px gray;
+	padding: 5px;
+	position: relative;
+}
+
+.compose-content {
+	margin-top: 5px;
+	border-top: 1px solid rgba(129, 129, 129, 0.4);
+}
+
+.cc-con {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.bcc-con {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+}
+
+.cc-con a {
+	color: black;
+	font-size: 13px;
+}
+
+.bcc-con a {
+	color: black;
+	font-size: 13px;
+}
+
+.btn-con {
+	padding-right: 10px;
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap-reverse;
+}
+
+.mail-sent-status {
+	display: none;
+	padding: 8px 6px 0px 6px;
+	line-height: 10px;
+	border-radius: 7px;
+	font-size: 12px;
+	color: white;
+	margin-right: 8px;
+	margin-top: 8px;
+}
+
+.save-btn {
+	margin-right: 8px;
+}
+
+.draft-con {
+	box-shadow: 0 5px 5px gray;
+	display: none;
+	flex-direction: column;
+}
+
+.draft-con .table {
+	overflow-x: auto;
+}
+
+.draft-con .table tr {
+	cursor: pointer;
+}
